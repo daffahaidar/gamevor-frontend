@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/providers/page_provider.dart';
-import 'package:shamo/providers/wishlist_provider.dart';
-import 'package:shamo/widgets/wishlist_card.dart';
+import 'package:gamevor/providers/page_provider.dart';
+import 'package:gamevor/providers/wishlist_provider.dart';
+import 'package:gamevor/widgets/wishlist_card.dart';
 
 import '../../theme.dart';
 
@@ -17,7 +17,7 @@ class WishlistPage extends StatelessWidget {
         backgroundColor: backgroundColor1,
         centerTitle: true,
         title: Text(
-          'Favorite Shoes',
+          'Favorite Games',
         ),
         elevation: 0,
         automaticallyImplyLeading: false,
@@ -40,7 +40,7 @@ class WishlistPage extends StatelessWidget {
                 height: 23,
               ),
               Text(
-                ' You don\'t have dream shoes?',
+                ' You don\'t have any favorite games yet',
                 style: primaryTextStyle.copyWith(
                   fontSize: 16,
                   fontWeight: medium,
@@ -50,7 +50,7 @@ class WishlistPage extends StatelessWidget {
                 height: 12,
               ),
               Text(
-                'Let\'s find your favorite shoes',
+                'Let\'s find your favorite games!',
                 style: secondaryTextStyle,
               ),
               SizedBox(

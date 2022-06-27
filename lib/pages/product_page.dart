@@ -1,11 +1,11 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/models/product_model.dart';
-import 'package:shamo/pages/detail_chat_page.dart';
-import 'package:shamo/providers/cart_provider.dart';
-import 'package:shamo/providers/wishlist_provider.dart';
-import 'package:shamo/theme.dart';
+import 'package:gamevor/models/product_model.dart';
+import 'package:gamevor/pages/detail_chat_page.dart';
+import 'package:gamevor/providers/cart_provider.dart';
+import 'package:gamevor/providers/wishlist_provider.dart';
+import 'package:gamevor/theme.dart';
 
 class ProductPage extends StatefulWidget {
   final ProductModel product;
@@ -283,7 +283,7 @@ class _ProductPageState extends State<ProductPage> {
                     },
                     child: Image.asset(
                       wishlistProvider.isWishlist(widget.product)
-                          ? 'assets/button_wishlist_blue.png'
+                          ? 'assets/button_wishlist_red.png'
                           : 'assets/button_wishlist.png',
                       width: 46,
                     ),
@@ -309,11 +309,11 @@ class _ProductPageState extends State<ProductPage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    'Price starts from',
+                    'Price',
                     style: primaryTextStyle,
                   ),
                   Text(
-                    '\$${widget.product.price}',
+                    'Rp. ${widget.product.price}',
                     style: priceTextStyle.copyWith(
                       fontSize: 16,
                       fontWeight: semiBold,
@@ -368,7 +368,7 @@ class _ProductPageState extends State<ProductPage> {
                       horizontal: defaultMargin,
                     ),
                     child: Text(
-                      'Fimiliar Shoes',
+                      'Fimiliar Gamesf',
                       style: primaryTextStyle.copyWith(
                         fontWeight: medium,
                       ),

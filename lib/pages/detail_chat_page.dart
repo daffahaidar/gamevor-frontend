@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/models/message_model.dart';
-import 'package:shamo/models/product_model.dart';
-import 'package:shamo/providers/auth_provider.dart';
-import 'package:shamo/services/message_service.dart';
-import 'package:shamo/theme.dart';
-import 'package:shamo/widgets/chat_bubble.dart';
+import 'package:gamevor/models/message_model.dart';
+import 'package:gamevor/models/product_model.dart';
+import 'package:gamevor/providers/auth_provider.dart';
+import 'package:gamevor/services/message_service.dart';
+import 'package:gamevor/theme.dart';
+import 'package:gamevor/widgets/chat_bubble.dart';
 
 class DetailChatPage extends StatefulWidget {
   ProductModel product;
@@ -55,7 +55,7 @@ class _DetailChatPageState extends State<DetailChatPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Shoe Store',
+                    'Gamevor',
                     style: primaryTextStyle.copyWith(
                       fontWeight: medium,
                       fontSize: 14,
@@ -116,7 +116,7 @@ class _DetailChatPageState extends State<DetailChatPage> {
                     height: 2,
                   ),
                   Text(
-                    '\$${widget.product.price}',
+                    'Rp. ${widget.product.price}',
                     style: priceTextStyle.copyWith(
                       fontWeight: medium,
                     ),

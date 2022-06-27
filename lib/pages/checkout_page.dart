@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/providers/auth_provider.dart';
-import 'package:shamo/providers/cart_provider.dart';
-import 'package:shamo/providers/transaction_provider.dart';
-import 'package:shamo/theme.dart';
-import 'package:shamo/widgets/checkout_card.dart';
-import 'package:shamo/widgets/loading_button.dart';
+import 'package:gamevor/providers/auth_provider.dart';
+import 'package:gamevor/providers/cart_provider.dart';
+import 'package:gamevor/providers/transaction_provider.dart';
+import 'package:gamevor/theme.dart';
+import 'package:gamevor/widgets/checkout_card.dart';
+import 'package:gamevor/widgets/loading_button.dart';
 
 class CheckoutPage extends StatefulWidget {
   @override
@@ -222,7 +222,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
                       ),
                     ),
                     Text(
-                      '\$${cartProvider.totalPrice()}',
+                      'Rp. ${cartProvider.totalPrice()}',
                       style: primaryTextStyle.copyWith(
                         fontWeight: medium,
                       ),
@@ -269,7 +269,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
                       ),
                     ),
                     Text(
-                      '\$${cartProvider.totalPrice()}',
+                      'Rp. ${cartProvider.totalPrice()}',
                       style: priceTextStyle.copyWith(
                         fontWeight: semiBold,
                       ),

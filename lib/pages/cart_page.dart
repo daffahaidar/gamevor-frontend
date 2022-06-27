@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/providers/cart_provider.dart';
-import 'package:shamo/theme.dart';
-import 'package:shamo/widgets/cart_card.dart';
+import 'package:gamevor/providers/cart_provider.dart';
+import 'package:gamevor/theme.dart';
+import 'package:gamevor/widgets/cart_card.dart';
 
 class CartPage extends StatelessWidget {
   @override
@@ -107,7 +107,7 @@ class CartPage extends StatelessWidget {
                     style: primaryTextStyle,
                   ),
                   Text(
-                    '\$${cartProvider.totalPrice()}',
+                    'Rp. ${cartProvider.totalPrice()}',
                     style: priceTextStyle.copyWith(
                       fontSize: 16,
                       fontWeight: semiBold,

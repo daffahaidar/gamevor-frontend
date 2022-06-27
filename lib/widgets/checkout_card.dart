@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shamo/models/cart_model.dart';
-import 'package:shamo/theme.dart';
+import 'package:gamevor/models/cart_model.dart';
+import 'package:gamevor/theme.dart';
 
 class CheckoutCard extends StatelessWidget {
   final CartModel cart;
@@ -50,7 +50,7 @@ class CheckoutCard extends StatelessWidget {
                   height: 2,
                 ),
                 Text(
-                  '\$${cart.product.price}',
+                  'Rp. ${cart.product.price}',
                   style: priceTextStyle,
                 ),
               ],

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/models/product_model.dart';
-import 'package:shamo/providers/wishlist_provider.dart';
-import 'package:shamo/theme.dart';
+import 'package:gamevor/models/product_model.dart';
+import 'package:gamevor/providers/wishlist_provider.dart';
+import 'package:gamevor/theme.dart';
 
 class WishlistCard extends StatelessWidget {
   final ProductModel product;
@@ -49,7 +49,7 @@ class WishlistCard extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  '\$${product.price}',
+                  'Rp. ${product.price}',
                   style: priceTextStyle,
                 ),
               ],
@@ -60,7 +60,7 @@ class WishlistCard extends StatelessWidget {
               wishlistProvider.setProduct(product);
             },
             child: Image.asset(
-              'assets/button_wishlist_blue.png',
+              'assets/button_wishlist_red.png',
               width: 34,
             ),
           ),

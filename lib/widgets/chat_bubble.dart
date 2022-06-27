@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:shamo/models/product_model.dart';
-import 'package:shamo/theme.dart';
+import 'package:gamevor/models/product_model.dart';
+import 'package:gamevor/theme.dart';
 
 class ChatBubble extends StatelessWidget {
   final String text;
@@ -56,7 +56,7 @@ class ChatBubble extends StatelessWidget {
                         height: 4,
                       ),
                       Text(
-                        '\$${product.price}',
+                        'Rp. ${product.price}',
                         style: priceTextStyle.copyWith(
                           fontWeight: medium,
                         ),

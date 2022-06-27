@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/providers/product_provider.dart';
-import 'package:shamo/theme.dart';
+import 'package:gamevor/providers/product_provider.dart';
+import 'package:gamevor/theme.dart';
 
 class SplashPage extends StatefulWidget {
   @override

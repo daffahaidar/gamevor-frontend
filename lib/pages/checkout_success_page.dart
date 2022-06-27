@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shamo/theme.dart';
+import 'package:gamevor/theme.dart';
 
 class CheckoutSuccessPage extends StatelessWidget {
   @override
@@ -38,7 +38,7 @@ class CheckoutSuccessPage extends StatelessWidget {
               height: 12,
             ),
             Text(
-              'Stay at home while we\nprepare your dream shoes',
+              'Stay at home while we\nprepare your dream Games',
               style: secondaryTextStyle,
               textAlign: TextAlign.center,
             ),
@@ -60,7 +60,7 @@ class CheckoutSuccessPage extends StatelessWidget {
                   ),
                 ),
                 child: Text(
-                  'Order Other Shoes',
+                  'Order Other Games',
                   style: primaryTextStyle.copyWith(
                     fontSize: 16,
                     fontWeight: medium,

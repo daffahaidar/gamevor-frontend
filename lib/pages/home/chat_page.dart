@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/models/message_model.dart';
-import 'package:shamo/providers/auth_provider.dart';
-import 'package:shamo/providers/page_provider.dart';
-import 'package:shamo/services/message_service.dart';
-import 'package:shamo/widgets/chat_tile.dart';
-
+import 'package:gamevor/models/message_model.dart';
+import 'package:gamevor/providers/auth_provider.dart';
+import 'package:gamevor/providers/page_provider.dart';
+import 'package:gamevor/services/message_service.dart';
+import 'package:gamevor/widgets/chat_tile.dart';
 import '../../theme.dart';
 
 class ChatPage extends StatelessWidget {

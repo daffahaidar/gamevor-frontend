@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/models/user_model.dart';
-import 'package:shamo/providers/auth_provider.dart';
-import 'package:shamo/providers/product_provider.dart';
-import 'package:shamo/theme.dart';
-import 'package:shamo/widgets/product_card.dart';
-import 'package:shamo/widgets/product_tile.dart';
+import 'package:gamevor/models/user_model.dart';
+import 'package:gamevor/providers/auth_provider.dart';
+import 'package:gamevor/providers/product_provider.dart';
+import 'package:gamevor/theme.dart';
+import 'package:gamevor/widgets/product_card.dart';
+import 'package:gamevor/widgets/product_tile.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -83,7 +83,7 @@ class HomePage extends StatelessWidget {
                   color: primaryColor,
                 ),
                 child: Text(
-                  'All Shoes',
+                  'All Game',
                   style: primaryTextStyle.copyWith(
                     fontSize: 13,
                     fontWeight: medium,
@@ -104,7 +104,7 @@ class HomePage extends StatelessWidget {
                   color: transparentColor,
                 ),
                 child: Text(
-                  'Running',
+                  'Mobile Legends',
                   style: subtitleTextStyle.copyWith(
                     fontSize: 13,
                     fontWeight: medium,
@@ -125,7 +125,7 @@ class HomePage extends StatelessWidget {
                   color: transparentColor,
                 ),
                 child: Text(
-                  'Training',
+                  'PUBG Mobile',
                   style: subtitleTextStyle.copyWith(
                     fontSize: 13,
                     fontWeight: medium,
@@ -146,7 +146,7 @@ class HomePage extends StatelessWidget {
                   color: transparentColor,
                 ),
                 child: Text(
-                  'Basketball',
+                  'Valorant',
                   style: subtitleTextStyle.copyWith(
                     fontSize: 13,
                     fontWeight: medium,
@@ -167,7 +167,7 @@ class HomePage extends StatelessWidget {
                   color: transparentColor,
                 ),
                 child: Text(
-                  'Hiking',
+                  'Free Fire',
                   style: subtitleTextStyle.copyWith(
                     fontSize: 13,
                     fontWeight: medium,
@@ -188,7 +188,7 @@ class HomePage extends StatelessWidget {
           right: defaultMargin,
         ),
         child: Text(
-          'Popular Products',
+          'Popular Games',
           style: primaryTextStyle.copyWith(
             fontSize: 22,
             fontWeight: semiBold,
@@ -228,7 +228,7 @@ class HomePage extends StatelessWidget {
           right: defaultMargin,
         ),
         child: Text(
-          'New Arrivals',
+          'New Products',
           style: primaryTextStyle.copyWith(
             fontSize: 22,
             fontWeight: semiBold,

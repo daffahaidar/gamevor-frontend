@@ -1,22 +1,22 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/pages/cart_page.dart';
-import 'package:shamo/pages/checkout_page.dart';
-import 'package:shamo/pages/checkout_success_page.dart';
-import 'package:shamo/pages/detail_chat_page.dart';
-import 'package:shamo/pages/edit_profile_page.dart';
-import 'package:shamo/pages/home/main_page.dart';
-import 'package:shamo/pages/product_page.dart';
-import 'package:shamo/pages/sign_in_page.dart';
-import 'package:shamo/pages/sign_up_page.dart';
-import 'package:shamo/pages/splash_page.dart';
-import 'package:shamo/providers/auth_provider.dart';
-import 'package:shamo/providers/cart_provider.dart';
-import 'package:shamo/providers/page_provider.dart';
-import 'package:shamo/providers/product_provider.dart';
-import 'package:shamo/providers/transaction_provider.dart';
-import 'package:shamo/providers/wishlist_provider.dart';
+import 'package:gamevor/pages/cart_page.dart';
+import 'package:gamevor/pages/checkout_page.dart';
+import 'package:gamevor/pages/checkout_success_page.dart';
+import 'package:gamevor/pages/detail_chat_page.dart';
+import 'package:gamevor/pages/edit_profile_page.dart';
+import 'package:gamevor/pages/home/main_page.dart';
+import 'package:gamevor/pages/product_page.dart';
+import 'package:gamevor/pages/sign_in_page.dart';
+import 'package:gamevor/pages/sign_up_page.dart';
+import 'package:gamevor/pages/splash_page.dart';
+import 'package:gamevor/providers/auth_provider.dart';
+import 'package:gamevor/providers/cart_provider.dart';
+import 'package:gamevor/providers/page_provider.dart';
+import 'package:gamevor/providers/product_provider.dart';
+import 'package:gamevor/providers/transaction_provider.dart';
+import 'package:gamevor/providers/wishlist_provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

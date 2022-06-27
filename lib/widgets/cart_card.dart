@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:shamo/models/cart_model.dart';
-import 'package:shamo/providers/cart_provider.dart';
-import 'package:shamo/theme.dart';
+import 'package:gamevor/models/cart_model.dart';
+import 'package:gamevor/providers/cart_provider.dart';
+import 'package:gamevor/theme.dart';
 
 class CartCard extends StatelessWidget {
   final CartModel cart;
@@ -54,7 +54,7 @@ class CartCard extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      '\$${cart.product.price}',
+                      'Rp. ${cart.product.price}',
                       style: priceTextStyle,
                     ),
                   ],
