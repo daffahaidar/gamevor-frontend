@@ -60,7 +60,7 @@ class CheckoutSuccessPage extends StatelessWidget {
                   ),
                 ),
                 child: Text(
-                  'Order Other Games',
+                  'View My Order',
                   style: primaryTextStyle.copyWith(
                     fontSize: 16,
                     fontWeight: medium,
@@ -83,11 +83,11 @@ class CheckoutSuccessPage extends StatelessWidget {
                   ),
                 ),
                 child: Text(
-                  'View My Order',
+                  'Whatsapp Seller',
                   style: primaryTextStyle.copyWith(
                     fontSize: 16,
                     fontWeight: medium,
-                    color: Color(0xffB7B6BF),
+                    color: Color(0xff38ABBE),
                   ),
                 ),
               ),

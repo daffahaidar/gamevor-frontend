@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "142118791429",
+    "project_id": "gamevor-4cba7",
+    "storage_bucket": "gamevor-4cba7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142118791429:android:f3d14e131b75fe5f936f6c",
+        "android_client_info": {
+          "package_name": "com.daffahaidar.gamevor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142118791429-ecdnnbfitodrs33j4u14tpade8usbbgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWYugl44p7DHvurQpNlAtPWPnIJX-nOTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142118791429-ecdnnbfitodrs33j4u14tpade8usbbgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

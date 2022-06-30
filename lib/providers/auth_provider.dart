@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shamo/models/user_model.dart';
-import 'package:shamo/services/auth_service.dart';
+import 'package:gamevor/models/user_model.dart';
+import 'package:gamevor/services/auth_service.dart';
 
 class AuthProvider with ChangeNotifier {
   UserModel _user;

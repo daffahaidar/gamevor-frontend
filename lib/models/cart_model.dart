@@ -1,4 +1,4 @@
-import 'package:shamo/models/product_model.dart';
+import 'package:gamevor/models/product_model.dart';
 
 class CartModel {
   int id;

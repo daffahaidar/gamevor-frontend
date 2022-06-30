@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:shamo/models/product_model.dart';
+import 'package:gamevor/models/product_model.dart';
 
 class ProductService {
-  String baseUrl = 'https://shamo-backend.buildwithangga.id/api';
+  String baseUrl = 'http://gamevor.my.id/api';
 
   Future<List<ProductModel>> getProducts() async {
     var url = '$baseUrl/products';

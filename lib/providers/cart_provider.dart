@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shamo/models/cart_model.dart';
-import 'package:shamo/models/product_model.dart';
+import 'package:gamevor/models/cart_model.dart';
+import 'package:gamevor/models/product_model.dart';
 
 class CartProvider with ChangeNotifier {
   List<CartModel> _carts = [];

@@ -5,6 +5,7 @@ import 'package:gamevor/providers/auth_provider.dart';
 import 'package:gamevor/providers/page_provider.dart';
 import 'package:gamevor/services/message_service.dart';
 import 'package:gamevor/widgets/chat_tile.dart';
+
 import '../../theme.dart';
 
 class ChatPage extends StatelessWidget {

@@ -23,12 +23,12 @@ class _DetailChatPageState extends State<DetailChatPage> {
     AuthProvider authProvider = Provider.of<AuthProvider>(context);
 
     handleAddMessage() async {
-      await MessageService().addMessage(
-        user: authProvider.user,
-        isFromUser: true,
-        product: widget.product,
-        message: messageController.text,
-      );
+      // await MessageService().addMessage(
+      //   user: authProvider.user,
+      //   isFromUser: true,
+      //   product: widget.product,
+      //   message: messageController.text,
+      // );
 
       setState(() {
         widget.product = UninitializedProductModel();
@@ -193,28 +193,28 @@ class _DetailChatPageState extends State<DetailChatPage> {
 
     Widget content() {
       return StreamBuilder<List<MessageModel>>(
-          stream: MessageService()
-              .getMessagesByUserId(userId: authProvider.user.id),
+          // stream: MessageService()
+          // .getMessagesByUserId(userId: authProvider.user.id),
           builder: (context, snapshot) {
-            if (snapshot.hasData) {
-              return ListView(
-                padding: EdgeInsets.symmetric(
-                  horizontal: defaultMargin,
-                ),
-                children: snapshot.data
-                    .map((MessageModel message) => ChatBubble(
-                          isSender: message.isFromUser,
-                          text: message.message,
-                          product: message.product,
-                        ))
-                    .toList(),
-              );
-            } else {
-              return Center(
-                child: CircularProgressIndicator(),
-              );
-            }
-          });
+        if (snapshot.hasData) {
+          return ListView(
+            padding: EdgeInsets.symmetric(
+              horizontal: defaultMargin,
+            ),
+            children: snapshot.data
+                .map((MessageModel message) => ChatBubble(
+                      isSender: message.isFromUser,
+                      text: message.message,
+                      product: message.product,
+                    ))
+                .toList(),
+          );
+        } else {
+          return Center(
+            child: CircularProgressIndicator(),
+          );
+        }
+      });
     }
 
     return Scaffold(

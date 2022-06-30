@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/cart_model.dart';
 
 class TransactionService {
-  String baseUrl = 'https://shamo-backend.buildwithangga.id/api';
+  String baseUrl = 'http://gamevor.my.id/api';
 
   Future<bool> checkout(
       String token, List<CartModel> carts, double totalPrice) async {

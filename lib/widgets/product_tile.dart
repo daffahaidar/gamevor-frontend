@@ -63,7 +63,7 @@ class ProductTile extends StatelessWidget {
                     height: 6,
                   ),
                   Text(
-                    '\$${product.price}',
+                    'Rp. ${product.price}',
                     style: priceTextStyle.copyWith(
                       fontWeight: medium,
                     ),

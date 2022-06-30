@@ -1,10 +1,10 @@
 import 'dart:convert';
 
-import 'package:shamo/models/user_model.dart';
+import 'package:gamevor/models/user_model.dart';
 import 'package:http/http.dart' as http;
 
 class AuthService {
-  String baseUrl = 'https://shamo-backend.buildwithangga.id/api';
+  String baseUrl = 'http://gamevor.my.id/api';
 
   Future<UserModel> register({
     String name,

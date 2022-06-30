@@ -99,7 +99,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Address Details',
+                  'Store Details',
                   style: primaryTextStyle.copyWith(
                     fontSize: 16,
                     fontWeight: medium,
@@ -121,7 +121,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
                           height: 30,
                         ),
                         Image.asset(
-                          'assets/icon_your_address.png',
+                          'assets/icon_store_location.png',
                           width: 40,
                         ),
                       ],
@@ -140,7 +140,7 @@ class _CheckoutPageState extends State<CheckoutPage> {
                           ),
                         ),
                         Text(
-                          'Adidas Core',
+                          'Bandung',
                           style: primaryTextStyle.copyWith(
                             fontWeight: medium,
                           ),
@@ -149,14 +149,14 @@ class _CheckoutPageState extends State<CheckoutPage> {
                           height: defaultMargin,
                         ),
                         Text(
-                          'Your Address',
+                          'Bank Account',
                           style: secondaryTextStyle.copyWith(
                             fontSize: 12,
                             fontWeight: light,
                           ),
                         ),
                         Text(
-                          'Marsemoon',
+                          '1313-1235-5867-5775',
                           style: primaryTextStyle.copyWith(
                             fontWeight: medium,
                           ),

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shamo/models/cart_model.dart';
-import 'package:shamo/services/transaction_service.dart';
+import 'package:gamevor/models/cart_model.dart';
+import 'package:gamevor/services/transaction_service.dart';
 
 class TransactionProvider with ChangeNotifier {
   Future<bool> checkout(

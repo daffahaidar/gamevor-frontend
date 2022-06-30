@@ -1,5 +1,5 @@
-import 'package:shamo/models/category_model.dart';
-import 'package:shamo/models/gallery_model.dart';
+import 'package:gamevor/models/category_model.dart';
+import 'package:gamevor/models/gallery_model.dart';
 
 class ProductModel {
   int id;

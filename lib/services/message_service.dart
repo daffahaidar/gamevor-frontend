@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:shamo/models/message_model.dart';
-import 'package:shamo/models/product_model.dart';
-import 'package:shamo/models/user_model.dart';
+import 'package:gamevor/models/message_model.dart';
+import 'package:gamevor/models/product_model.dart';
+import 'package:gamevor/models/user_model.dart';
 
 class MessageService {
   FirebaseFirestore firestore = FirebaseFirestore.instance;
